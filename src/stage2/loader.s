@@ -10,9 +10,9 @@ KERNEL_STACK_SIZE equ 4096      ; size of the stack in bytes
 
 section .bss
 align 4
-kernel_stack:                   ; label points to the beginning of memory
-	resb KERNEL_STACK_SIZE  ; reserve memory for stack
-mov esp, kernel_stack + KERNEL_STACK_SIZE  ; point esp to the start of the stack
+kernel_stack:                   		; label points to the beginning of memory
+	resb KERNEL_STACK_SIZE  		; reserve memory for stack
+mov esp, kernel_stack + KERNEL_STACK_SIZE  	; point esp to the start of the stack
     
 
 section .text:                  ; start of the code section
