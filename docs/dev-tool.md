@@ -8,4 +8,4 @@
 6. bochs
 7. qemu
 8. strace
-9. [LTTng - Linux Trace tool](http://lttng.org/)
+9. [LTTng - Linux Trace Toolkit - next generation](http://lttng.org/)
