@@ -12,3 +12,4 @@
 
 ### Kernel Development Environment
 1. [Sane kernel Development](https://brennan.io/2017/03/08/sane-kernel-dev/)
+2. [How to write a system call](https://brennan.io/2016/11/14/kernel-dev-ep3/)
